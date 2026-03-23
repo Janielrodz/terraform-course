@@ -1,8 +1,8 @@
 resource "aws_s3_bucket" "b" {
-  bucket = "mybucket-c29df1"
+  bucket = "janiel-terraform-demo-2026-01"
 
   tags = {
-    Name = "mybucket-c29df1"
+    Name = "janiel-terraform-demo-2026-01"
   }
 }
 

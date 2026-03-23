@@ -1,6 +1,6 @@
 resource "aws_instance" "example" {
   ami           = var.AMIS[var.AWS_REGION]
-  instance_type = "t2.micro"
+  instance_type = "t3.micro"
 
   # the VPC subnet
   subnet_id = aws_subnet.main-public-1.id

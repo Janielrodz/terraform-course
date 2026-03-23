@@ -2,9 +2,9 @@ data "terraform_remote_state" "first-steps" {
   backend = "s3"
 
   config = {
-    bucket = "terraform-a49cd32"
+    bucket = "terraform-21mar9302"
     key    = "first-steps/terraform.tfstate"
-    region = "us-east-1"
+    region = "us-east-2"
   }
 }
 
